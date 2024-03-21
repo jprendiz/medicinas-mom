@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url(pill.jpeg);
+  }
+
+  .title {
+    background-color: #EFBC9B;
+    width: 100%;
+    height: 32px;
+    margin-top: 40px;  
+  }
+
+  .container-titulo p {
+    font-family: "Fleur De Leah", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #666;
+    font-size: 72px;
+    text-align: center;
+    margin-top: -70px;
+  }
+  
+  .container-prescripciones {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #EFBC9B;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+
+  thead th:nth-child(1) {
+    width: 10%;
+  }
+
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  td, th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+  }
+
+  th {
+    background-color: #EFBC9B;
+  }
+
+  td {
+    text-align: center;
+  }
+
+  tr:nth-child(even) td {
+    background-color: #D6DAC8;
+  }
+
+  tr:nth-child(odd) td {
+    background-color: #9CAFAA;
+  }
